@@ -2,9 +2,10 @@ ul{
     display: flex;
     flex-direction: column;
 }
-.task li{
+.todoitem{
     display: flex;
     float: inline-start;
+    border-bottom: 1px solid black;
 }
 .frecce{
     height: 20px;
