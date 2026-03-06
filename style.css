@@ -8,6 +8,10 @@
 }
 .btn_frecce{
     border: none;
-    background-color: none;
-    
+    background-color: white;
+    height: 25px;
+    width: 25px;
+}
+.check_task, .btn_frecce, .label_task{
+    margin: 5px 2px;
 }
