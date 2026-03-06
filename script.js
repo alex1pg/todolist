@@ -7,6 +7,16 @@ const todolist = [
     {
         etichetta: "seconda todo",
         stato: false,
-        order: 1,
+        order: 2,
     }
 ];
+
+const listaToDo = document.getElementById("lista-todo");
+
+todolist.forEach(
+    function(item) {
+        const elementoLi = document.createElement('li');
+        elementoLi.innerText= item.etichetta;
+        listaToDo.append(elementoLi);
+    }
+);  
