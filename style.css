@@ -2,3 +2,7 @@
     display: flex;
     float: inline-start;
 }
+.frecce{
+    height: 20px;
+    width: 20px;
+}
